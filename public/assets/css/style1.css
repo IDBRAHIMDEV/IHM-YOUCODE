@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    font-family: "Roboto", sans-serif, "Helvetica", sans-serif;
+    font-weight: 300;
+}
+
+body, html {
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+}
+
+.testimonials {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    display: block;
+    width: 100%;
+    min-height: 250px;
+}
+
+.testimonials ul {
+    list-style: none;
+    padding: 0;
+}
+
+.testimonials li {
+    display: inline-block;
+    background-color: white;
+    margin: 50px 10px 10px 10px;
+    width: calc((100% - 55px) / 2);
+    height: 200px;
+    border: solid 1px #bdbdbd;
+    position: relative;
+    transition: ease-in-out .3s;
+}
+
+.testimonials li img {
+    height: 75px;
+    width: 75px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 15px #fff;
+    background-color: #fff;
+    transition: box-shadow 0.3s linear;
+}
+
+.testimonials li p {
+    position: absolute;
+    width: 70%;
+    text-align: center;
+    top: 50px;
+    left: 50%;
+    transform: translatex(-50%);
+    font-size: 15px;
+}
+
+.testimonials li h1 {
+    position: absolute;
+    text-decoration: bold;
+    bottom: 10px;
+    left: 50%;
+    transform: translatex(-50%);
+    font-size: 17px;
+}
+
+.testimonials li:hover {
+    background-color: #42a6f5;
+    color:black;
+}
